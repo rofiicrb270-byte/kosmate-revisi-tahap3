@@ -1,0 +1,234 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, viewport-fit=cover"
+    />
+    <title>Keuangan | KosMate</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="nav" aria-label="Navigasi utama">
+      <div class="logo">
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M3 10.5 12 3l9 7.5V21H3z" />
+          <path d="M9 21v-6h6v6" /></svg
+        >KosMate
+      </div>
+      <a href="index.html"
+        ><svg viewBox="0 0 24 24" aria-hidden="true">
+          <rect x="3" y="3" width="7" height="7" rx="1" />
+          <rect x="14" y="3" width="7" height="7" rx="1" />
+          <rect x="14" y="14" width="7" height="7" rx="1" />
+          <rect x="3" y="14" width="7" height="7" rx="1" /></svg
+        ><span>Dashboard</span></a
+      >
+      <a class="aktif" href="keuangan.html"
+        ><svg viewBox="0 0 24 24" aria-hidden="true">
+          <path
+            d="M19 7V4a1 1 0 0 0-1-1H5a2 2 0 0 0 0 4h15a1 1 0 0 1 1 1v4h-3a2 2 0 0 0 0 4h3a1 1 0 0 0 1-1v-2a1 1 0 0 0-1-1"
+          />
+          <path d="M3 5v14a2 2 0 0 0 2 2h15a1 1 0 0 0 1-1v-4" /></svg
+        ><span>Keuangan</span></a
+      >
+      <a class="desk" href="kebutuhan.html"
+        ><svg viewBox="0 0 24 24" aria-hidden="true">
+          <circle cx="8" cy="21" r="1" />
+          <circle cx="19" cy="21" r="1" />
+          <path
+            d="M2 2h2l2.7 12.4a2 2 0 0 0 2 1.6h9.8a2 2 0 0 0 2-1.6L22 7H5"
+          /></svg
+        ><span>Kebutuhan Kos</span></a
+      >
+      <a class="desk" href="agenda.html"
+        ><svg viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M8 2v4M16 2v4" />
+          <rect x="3" y="4" width="18" height="18" rx="2" />
+          <path d="M3 10h18" /></svg
+        ><span>Agenda &amp; Jadwal</span></a
+      >
+      <a class="desk" href="langganan.html"
+        ><svg viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 0 1 16 0Z" />
+          <circle cx="12" cy="10" r="3" /></svg
+        ><span>Tempat Langganan</span></a
+      >
+      <a class="desk" href="habit.html"
+        ><svg viewBox="0 0 24 24" aria-hidden="true">
+          <circle cx="12" cy="12" r="10" />
+          <path d="m9 12 2 2 4-4" /></svg
+        ><span>Habit Tracker</span></a
+      >
+      <a href="ai.html"
+        ><svg viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M12 3l1.9 5.1L19 10l-5.1 1.9L12 17l-1.9-5.1L5 10l5.1-1.9z" />
+          <path d="M19 17v4M17 19h4" /></svg
+        ><span>AI Assistant</span></a
+      >
+      <a class="mob" href="lainnya.html"
+        ><svg viewBox="0 0 24 24" aria-hidden="true">
+          <circle cx="5" cy="12" r="1" />
+          <circle cx="12" cy="12" r="1" />
+          <circle cx="19" cy="12" r="1" /></svg
+        ><span>Lainnya</span></a
+      >
+    </nav>
+    <main>
+      <header class="kepala">
+        <h1>Keuangan</h1>
+        <a class="tombol isi" href="#catat">Catat Pengeluaran</a>
+      </header>
+
+      <section class="grid2" aria-label="Ringkasan keuangan">
+        <div class="kartu">
+          <p class="redup">Saldo Tersisa</p>
+          <p class="angka">Rp 950.000</p>
+        </div>
+        <div class="kartu">
+          <p class="redup">Sisa Budget</p>
+          <p class="angka">Rp 350.000</p>
+        </div>
+        <div class="kartu">
+          <p class="redup">Total Pengeluaran</p>
+          <p class="angka">Rp 850.000</p>
+        </div>
+      </section>
+
+      <section class="kartu" aria-labelledby="judul-budget">
+        <h2 id="judul-budget">Penggunaan Budget</h2>
+        <div class="rincian">
+          <span>Rp 850.000 dari Rp 1.200.000</span>
+          <b>71%</b>
+        </div>
+        <div class="bar"><i style="width: 71%"></i></div>
+      </section>
+
+      <div class="dua-kolom">
+        <section class="kartu" aria-labelledby="judul-riwayat">
+          <h2 id="judul-riwayat">Riwayat Transaksi</h2>
+          <div class="tabel-gulir">
+            <table>
+              <thead>
+                <tr>
+                  <th scope="col">Tanggal</th>
+                  <th scope="col">Keterangan</th>
+                  <th scope="col">Kategori</th>
+                  <th scope="col" class="kanan">Jumlah</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>5 Okt 2026</td>
+                  <td>Transportasi online</td>
+                  <td>Transportasi</td>
+                  <td class="kanan keluar">-Rp 12.000</td>
+                </tr>
+                <tr>
+                  <td>4 Okt 2026</td>
+                  <td>Beli pulsa</td>
+                  <td>Pulsa &amp; Internet</td>
+                  <td class="kanan keluar">-Rp 25.000</td>
+                </tr>
+                <tr>
+                  <td>4 Okt 2026</td>
+                  <td>Nasi goreng</td>
+                  <td>Makanan</td>
+                  <td class="kanan keluar">-Rp 18.000</td>
+                </tr>
+                <tr>
+                  <td>3 Okt 2026</td>
+                  <td>Makan harian</td>
+                  <td>Makanan</td>
+                  <td class="kanan keluar">-Rp 364.000</td>
+                </tr>
+                <tr>
+                  <td>2 Okt 2026</td>
+                  <td>Keperluan lain</td>
+                  <td>Lainnya</td>
+                  <td class="kanan keluar">-Rp 170.000</td>
+                </tr>
+                <tr>
+                  <td>2 Okt 2026</td>
+                  <td>Bensin &amp; ongkos</td>
+                  <td>Transportasi</td>
+                  <td class="kanan keluar">-Rp 158.000</td>
+                </tr>
+                <tr>
+                  <td>1 Okt 2026</td>
+                  <td>Paket internet</td>
+                  <td>Pulsa &amp; Internet</td>
+                  <td class="kanan keluar">-Rp 103.000</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+
+        <div>
+          <section class="kartu" aria-labelledby="judul-kategori">
+            <h2 id="judul-kategori">Kategori Pengeluaran</h2>
+            <ul class="daftar">
+              <li>
+                <div class="rincian">
+                  <span>Makanan</span><span>Rp 382.000 (45%)</span>
+                </div>
+                <div class="bar"><i style="width: 45%"></i></div>
+              </li>
+              <li>
+                <div class="rincian">
+                  <span>Transportasi</span><span>Rp 170.000 (20%)</span>
+                </div>
+                <div class="bar"><i style="width: 20%"></i></div>
+              </li>
+              <li>
+                <div class="rincian">
+                  <span>Pulsa &amp; Internet</span><span>Rp 128.000 (15%)</span>
+                </div>
+                <div class="bar"><i style="width: 15%"></i></div>
+              </li>
+              <li>
+                <div class="rincian">
+                  <span>Lainnya</span><span>Rp 170.000 (20%)</span>
+                </div>
+                <div class="bar"><i style="width: 20%"></i></div>
+              </li>
+            </ul>
+          </section>
+
+          <section class="kartu" id="catat" aria-labelledby="judul-catat">
+            <h2 id="judul-catat">Catat Pengeluaran</h2>
+            <form class="form" action="#">
+              <label for="ket">
+                Keterangan
+                <input id="ket" name="keterangan" type="text" required />
+              </label>
+              <label for="kat">
+                Kategori
+                <select id="kat" name="kategori">
+                  <option>Makanan</option>
+                  <option>Transportasi</option>
+                  <option>Pulsa &amp; Internet</option>
+                  <option>Lainnya</option>
+                </select>
+              </label>
+              <label for="jml">
+                Jumlah (Rp)
+                <input
+                  id="jml"
+                  name="jumlah"
+                  type="number"
+                  min="0"
+                  step="1000"
+                  required
+                />
+              </label>
+              <button class="tombol isi" type="submit">Simpan</button>
+            </form>
+          </section>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

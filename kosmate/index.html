@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, viewport-fit=cover"
+    />
+    <title>Dashboard | KosMate</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="nav" aria-label="Navigasi utama">
+      <div class="logo">
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M3 10.5 12 3l9 7.5V21H3z" />
+          <path d="M9 21v-6h6v6" /></svg
+        >KosMate
+      </div>
+      <a class="aktif" href="index.html"
+        ><svg viewBox="0 0 24 24" aria-hidden="true">
+          <rect x="3" y="3" width="7" height="7" rx="1" />
+          <rect x="14" y="3" width="7" height="7" rx="1" />
+          <rect x="14" y="14" width="7" height="7" rx="1" />
+          <rect x="3" y="14" width="7" height="7" rx="1" /></svg
+        ><span>Dashboard</span></a
+      >
+      <a href="keuangan.html"
+        ><svg viewBox="0 0 24 24" aria-hidden="true">
+          <path
+            d="M19 7V4a1 1 0 0 0-1-1H5a2 2 0 0 0 0 4h15a1 1 0 0 1 1 1v4h-3a2 2 0 0 0 0 4h3a1 1 0 0 0 1-1v-2a1 1 0 0 0-1-1"
+          />
+          <path d="M3 5v14a2 2 0 0 0 2 2h15a1 1 0 0 0 1-1v-4" /></svg
+        ><span>Keuangan</span></a
+      >
+      <a class="desk" href="kebutuhan.html"
+        ><svg viewBox="0 0 24 24" aria-hidden="true">
+          <circle cx="8" cy="21" r="1" />
+          <circle cx="19" cy="21" r="1" />
+          <path
+            d="M2 2h2l2.7 12.4a2 2 0 0 0 2 1.6h9.8a2 2 0 0 0 2-1.6L22 7H5"
+          /></svg
+        ><span>Kebutuhan Kos</span></a
+      >
+      <a class="desk" href="agenda.html"
+        ><svg viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M8 2v4M16 2v4" />
+          <rect x="3" y="4" width="18" height="18" rx="2" />
+          <path d="M3 10h18" /></svg
+        ><span>Agenda &amp; Jadwal</span></a
+      >
+      <a class="desk" href="langganan.html"
+        ><svg viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 0 1 16 0Z" />
+          <circle cx="12" cy="10" r="3" /></svg
+        ><span>Tempat Langganan</span></a
+      >
+      <a class="desk" href="habit.html"
+        ><svg viewBox="0 0 24 24" aria-hidden="true">
+          <circle cx="12" cy="12" r="10" />
+          <path d="m9 12 2 2 4-4" /></svg
+        ><span>Habit Tracker</span></a
+      >
+      <a href="ai.html"
+        ><svg viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M12 3l1.9 5.1L19 10l-5.1 1.9L12 17l-1.9-5.1L5 10l5.1-1.9z" />
+          <path d="M19 17v4M17 19h4" /></svg
+        ><span>AI Assistant</span></a
+      >
+      <a class="mob" href="lainnya.html"
+        ><svg viewBox="0 0 24 24" aria-hidden="true">
+          <circle cx="5" cy="12" r="1" />
+          <circle cx="12" cy="12" r="1" />
+          <circle cx="19" cy="12" r="1" /></svg
+        ><span>Lainnya</span></a
+      >
+    </nav>
+    <main>
+      <h1>Hai, Ropi</h1>
+
+      <section class="kartu utama" aria-labelledby="judul-saldo">
+        <h2 id="judul-saldo">Saldo Tersisa</h2>
+        <p class="angka">Rp 950.000</p>
+        <div class="bar"><i style="width: 71%"></i></div>
+        <p class="redup">Terpakai Rp 850.000 (71%) dari budget Rp 1.200.000</p>
+        <div class="aksi">
+          <a class="tombol isi" href="keuangan.html">Catat Pengeluaran</a>
+          <a class="tombol" href="keuangan.html">Catat Pemasukan</a>
+          <a class="tombol" href="keuangan.html">Atur Budget</a>
+        </div>
+      </section>
+
+      <div class="dua-kolom sama">
+        <section class="kartu" aria-labelledby="judul-pengeluaran">
+          <h2 id="judul-pengeluaran">Pengeluaran Bulan Ini</h2>
+          <div class="donat-isi">
+            <div
+              class="donat"
+              role="img"
+              aria-label="Diagram pengeluaran per kategori"
+            ></div>
+            <div class="legenda">
+              <p>
+                <span><i class="w1"></i>Makanan</span><b>45%</b>
+              </p>
+              <p>
+                <span><i class="w2"></i>Transportasi</span><b>20%</b>
+              </p>
+              <p>
+                <span><i class="w3"></i>Pulsa &amp; Internet</span><b>15%</b>
+              </p>
+              <p>
+                <span><i class="w4"></i>Lainnya</span><b>20%</b>
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section class="kartu" aria-labelledby="judul-tagihan">
+          <h2 id="judul-tagihan">Tagihan Terdekat</h2>
+          <div class="baris">
+            <b>Listrik<small>Jatuh tempo 12 Nov 2026</small></b>
+            <span>Rp 150.000</span>
+            <a class="tombol" href="keuangan.html">Bayar</a>
+          </div>
+          <div class="baris">
+            <b>Internet<small>Jatuh tempo 20 Nov 2026</small></b>
+            <span>Rp 120.000</span>
+            <a class="tombol" href="keuangan.html">Bayar</a>
+          </div>
+        </section>
+      </div>
+
+      <section class="kartu" aria-labelledby="judul-kebutuhan">
+        <h2 id="judul-kebutuhan">Kebutuhan Kos</h2>
+        <div class="baris selesai">
+          <input type="checkbox" checked disabled aria-label="Sabun cuci" /><b
+            >Sabun cuci</b
+          >
+        </div>
+        <div class="baris">
+          <input type="checkbox" disabled aria-label="Tisu" /><b>Tisu</b>
+        </div>
+        <div class="baris">
+          <input type="checkbox" disabled aria-label="Mie instan" /><b
+            >Mie instan</b
+          >
+        </div>
+        <div class="baris">
+          <input type="checkbox" disabled aria-label="Air galon" /><b
+            >Air galon</b
+          >
+        </div>
+        <div class="aksi">
+          <a class="tombol" href="kebutuhan.html">Lihat Semua</a>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, viewport-fit=cover"
+    />
+    <title>Habit Tracker | KosMate</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="nav" aria-label="Navigasi utama">
+      <div class="logo">
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M3 10.5 12 3l9 7.5V21H3z" />
+          <path d="M9 21v-6h6v6" /></svg
+        >KosMate
+      </div>
+      <a href="index.html"
+        ><svg viewBox="0 0 24 24" aria-hidden="true">
+          <rect x="3" y="3" width="7" height="7" rx="1" />
+          <rect x="14" y="3" width="7" height="7" rx="1" />
+          <rect x="14" y="14" width="7" height="7" rx="1" />
+          <rect x="3" y="14" width="7" height="7" rx="1" /></svg
+        ><span>Dashboard</span></a
+      >
+      <a href="keuangan.html"
+        ><svg viewBox="0 0 24 24" aria-hidden="true">
+          <path
+            d="M19 7V4a1 1 0 0 0-1-1H5a2 2 0 0 0 0 4h15a1 1 0 0 1 1 1v4h-3a2 2 0 0 0 0 4h3a1 1 0 0 0 1-1v-2a1 1 0 0 0-1-1"
+          />
+          <path d="M3 5v14a2 2 0 0 0 2 2h15a1 1 0 0 0 1-1v-4" /></svg
+        ><span>Keuangan</span></a
+      >
+      <a class="desk" href="kebutuhan.html"
+        ><svg viewBox="0 0 24 24" aria-hidden="true">
+          <circle cx="8" cy="21" r="1" />
+          <circle cx="19" cy="21" r="1" />
+          <path
+            d="M2 2h2l2.7 12.4a2 2 0 0 0 2 1.6h9.8a2 2 0 0 0 2-1.6L22 7H5"
+          /></svg
+        ><span>Kebutuhan Kos</span></a
+      >
+      <a class="desk" href="agenda.html"
+        ><svg viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M8 2v4M16 2v4" />
+          <rect x="3" y="4" width="18" height="18" rx="2" />
+          <path d="M3 10h18" /></svg
+        ><span>Agenda &amp; Jadwal</span></a
+      >
+      <a class="desk" href="langganan.html"
+        ><svg viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 0 1 16 0Z" />
+          <circle cx="12" cy="10" r="3" /></svg
+        ><span>Tempat Langganan</span></a
+      >
+      <a class="desk aktif" href="habit.html"
+        ><svg viewBox="0 0 24 24" aria-hidden="true">
+          <circle cx="12" cy="12" r="10" />
+          <path d="m9 12 2 2 4-4" /></svg
+        ><span>Habit Tracker</span></a
+      >
+      <a href="ai.html"
+        ><svg viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M12 3l1.9 5.1L19 10l-5.1 1.9L12 17l-1.9-5.1L5 10l5.1-1.9z" />
+          <path d="M19 17v4M17 19h4" /></svg
+        ><span>AI Assistant</span></a
+      >
+      <a class="mob aktif" href="lainnya.html"
+        ><svg viewBox="0 0 24 24" aria-hidden="true">
+          <circle cx="5" cy="12" r="1" />
+          <circle cx="12" cy="12" r="1" />
+          <circle cx="19" cy="12" r="1" /></svg
+        ><span>Lainnya</span></a
+      >
+    </nav>
+    <main>
+      <div class="chips mob">
+        <a href="agenda.html">📅 Agenda</a
+        ><a href="langganan.html">📍 Langganan</a
+        ><a class="aktif" href="habit.html">✨ Habit</a>
+      </div>
+      <section class="kartu">
+        <h1>Habit Tracker 🌱</h1>
+        <p class="redup">Tetap semangat hari ini, anak kos tangguh!</p>
+      </section>
+      <section class="kartu">
+        <div class="aksi sebar" style="margin: 0">
+          <div>
+            <p class="redup">TARGET HARI INI</p>
+            <p class="angka">4/5 <span class="redup">selesai</span></p>
+          </div>
+          <span class="lencana kuning">🔥 7 Hari Aktif</span>
+        </div>
+        <div class="bar"><i style="width: 80%"></i></div>
+        <p class="redup">Satu langkah lagi menuju 100% · 80%</p>
+        <h2>Konsistensi Pekan Ini</h2>
+        <div class="pekan">
+          <span>Sen<i class="bulat">✓</i></span
+          ><span>Sel<i class="bulat">✓</i></span
+          ><span>Rab<i class="bulat">✓</i></span
+          ><span>Kam<i class="bulat">✓</i></span
+          ><span>Jum<i class="bulat">✓</i></span
+          ><span>Sab<i class="bulat">✓</i></span
+          ><span
+            ><b>Min</b
+            ><i
+              class="bulat"
+              style="background: var(--biru-muda); color: var(--biru)"
+              >⏳</i
+            ></span
+          >
+        </div>
+      </section>
+      <a
+        class="tombol isi"
+        style="display: block; text-align: center; margin-bottom: 14px"
+        href="#"
+        >⊕ Tambah Kebiasaan</a
+      >
+      <h2>Rutinitas Hari Ini</h2>
+      <section class="kartu">
+        <div class="baris selesai">
+          <input type="checkbox" checked /><b
+            >⏰ Bangun Tepat Waktu<small>Pagi · 🔥 7 hari</small></b
+          >
+        </div>
+        <div class="baris selesai">
+          <input type="checkbox" checked /><b
+            >🛏️ Merapikan Kamar<small>Pagi · 🔥 5 hari</small></b
+          >
+        </div>
+        <div class="baris selesai">
+          <input type="checkbox" checked /><b
+            >💧 Minum Air 2 Liter<small>6/8 gelas · Hidrasi Sehat</small></b
+          >
+        </div>
+        <div class="baris">
+          <input type="checkbox" /><b
+            >📚 Belajar Materi Kuliah<small>45 mnt · Persiapan UTS</small></b
+          >
+        </div>
+        <div class="baris">
+          <input type="checkbox" /><b
+            >🎒 Menyiapkan Kebutuhan Besok<small
+              >Malam · Baju &amp; Tas Kos</small
+            ></b
+          >
+        </div>
+      </section>
+      <section class="kartu" style="background: var(--kuning-muda)">
+        <b>☕ Catatan Hangat Ibu Kos</b>
+        <p>
+          "Kebiasaan kecil yang dijaga tiap hari bakal bikin hidup mandiri di
+          kos jadi jauh lebih ringan. Jangan lupa istirahat cukup ya!"
+        </p>
+      </section>
+    </main>
+  </body>
+</html>
